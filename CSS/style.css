@@ -17,6 +17,19 @@
     cursor: pointer;
 }
 
+
+@media (min-width:991px) {
+    .picture img-fluid {
+        height: 346px;
+    }
+}
+
+@media (min-width:1199px) {
+    .picture img-fluid {
+        height: 389px;
+    }
+}
+
 @media(min-width:768px) {
     #main-header img {
         width: 100%;
